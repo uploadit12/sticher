@@ -4,5 +4,5 @@ ActiveRecord::Base.establish_connection(
   :database => File.dirname(__FILE__) + "/sticher.sqlite3"
 )
 load File.dirname(__FILE__) + '/support/schema.rb'
-load File.dirname(__FILE__) + '/support/post.rb'
-load File.dirname(__FILE__) + '/support/data.rb'
+load File.dirname(__FILE__) + '/support/stich.rb'
+load File.dirname(__FILE__) + '/support/unstich.rb'
